@@ -1,0 +1,70 @@
+{
+  "name": "cdp-gulp",
+  "version": "1.0.0",
+  "description": "Step-by-step example of introducing Gulp into project",
+  "scripts": {
+    "build": "gulp build",
+    "build:prod": "gulp build:prod",
+    "watch": "gulp watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/IllusionMH/cdp-gulp.git"
+  },
+  "keywords": [
+    "gulp",
+    "tutorial",
+    "introduction",
+    "cdp",
+    "epam"
+  ],
+  "author": "Andrii Dieiev",
+  "contributors": [
+    "Valerii Pavlov"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "bower-webpack-plugin": "^0.1.9",
+    "css-loader": "^0.26.1",
+    "del": "^2.2.0",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb-base": "^11.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.0",
+    "gulp-bower": "0.0.13",
+    "gulp-cached": "^1.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-csso": "^2.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-filter": "^4.0.0",
+    "gulp-html-replace": "^1.5.5",
+    "gulp-if": "^2.0.0",
+    "gulp-imagemin": "^2.4.0",
+    "gulp-less": "^3.0.5",
+    "gulp-remember": "^0.3.1",
+    "gulp-stylelint": "^3.7.0",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "gulp.spritesmith": "^6.2.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "main-bower-files": "^2.11.1",
+    "minimist": "^1.2.0",
+    "postcss-scss": "^0.4.0",
+    "resolve-url-loader": "^1.6.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "jsmp-infra-create-user-object": "^2.0.1"
+  }
+}
